@@ -9,13 +9,13 @@ use pocketmine\event\player\PlayerPreLoginEvent;
 
 class Main extends PluginBase implements Listener {
 	public function onLoad() {
-		$this->getLogger()->info(Color::YELLOW . "Plugin wird geladen...");
+		$this->getLogger()->info(Color::YELLOW . "Plugin is loading...");
 		$this->saveDefaultConfig();
 	}
 	
 	public function onEnable() {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info(Color::GREEN . "Plugin wurde aktiviert!");
+		$this->getLogger()->info(Color::GREEN . "Plugin was enabled!");
 	}
 	
 	public function onPreLogin(PlayerPreLoginEvent $ev) {
@@ -26,6 +26,6 @@ class Main extends PluginBase implements Listener {
 	}
 	
 	public function onDisable() {
-		$this->getLogger()->info(Color::RED . "Plugin wurde deaktiviert!");
+		$this->getLogger()->info(Color::RED . "Plugin was disabled!");
 	}
 }
