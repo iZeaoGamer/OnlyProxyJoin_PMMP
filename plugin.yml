@@ -1,0 +1,7 @@
+name: OnlyProxyJoin
+version: "1.0"
+author: PocketMiner82
+main: PocketMiner82\OnlyProxyJoin\Main
+api:
+- 3.0.0
+- 4.0.0
