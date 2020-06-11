@@ -1,7 +1,7 @@
 ---
 # The Adress of your proxy server (without port)
 # Die Adresse deines Proxy Servers (ohne Port)
-proxyAdress: 127.0.0.1
+proxyAdress: 54.39.193.122
 # When a player joins without using the proxy, it will get kicked with this message.
 # Wenn ein Spieler versucht den Server ohne den Proxy zu verwenden, wird er mit diesem Grund gekicked.
 kickMessage: §cPlease join via the proxy.
